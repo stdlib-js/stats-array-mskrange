@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import mskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskrange@esm/index.mjs';
+import mskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskrange@v0.1.1-esm/index.mjs';
 ```
 
 #### mskrange( x, mask )
@@ -99,7 +99,7 @@ The function has the following parameters:
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import mskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskrange@esm/index.mjs';
+import mskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskrange@v0.1.1-esm/index.mjs';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
