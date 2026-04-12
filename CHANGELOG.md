@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-04-12)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`db9343f`](https://github.com/stdlib-js/stdlib/commit/db9343fab98f282507251bac9547c713d5811cd7) - **bench:** refactor to use string interpolation in `stats/array` [(#11395)](https://github.com/stdlib-js/stdlib/pull/11395) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
