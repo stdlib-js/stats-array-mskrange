@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-12)
+## Unreleased (2026-05-13)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`db9343f`](https://github.com/stdlib-js/stdlib/commit/db9343fab98f282507251bac9547c713d5811cd7) - **bench:** refactor to use string interpolation in `stats/array` [(#11395)](https://github.com/stdlib-js/stdlib/pull/11395) _(by Karan Anand)_
+-   [`db9343f`](https://github.com/stdlib-js/stdlib/commit/db9343fab98f282507251bac9547c713d5811cd7) - **bench:** refactor to use string interpolation in `stats/array` [(#11392)](https://github.com/stdlib-js/stdlib/pull/11392) _(by Karan Anand)_
 
 </details>
 
