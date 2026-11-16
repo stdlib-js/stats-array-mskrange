@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,28 +16,34 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { NumericArray, Collection, AccessorArrayLike } from '@stdlib/types/array';
 
 /**
-* Compute the range of an array according to a mask.
+* Input array.
+*/
+type InputArray = NumericArray | Collection<number> | AccessorArrayLike<number>;
+
+/**
+* Computes the range of an array according to a mask.
 *
-* @module @stdlib/stats-array-mskrange
+* @param x - input array
+* @param mask - mask array
+* @returns range
 *
 * @example
-* var mskrange = require( '@stdlib/stats-array-mskrange' );
-*
 * var x = [ 1.0, -2.0, 4.0, 2.0 ];
 * var mask = [ 0, 0, 1, 0 ];
 *
 * var v = mskrange( x, mask );
 * // returns 4.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function mskrange( x: InputArray, mask: InputArray ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = mskrange;
